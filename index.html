@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferramenta de Estudo - Alura</title>
+    <title>Quizz de História</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bem-vindo à sua Ferramenta de Estudo!</h1>
-    <p>Esta é a sua página inicial.</p>
+    <div class="quiz-container">
+        <h1>Quizz de História do Paraná</h1>
+        <div id="question-container">
+            <p id="question">Qual é a capital do estado do Paraná?</p>
+            <div id="options-container">
+                <button class="option-btn">Londrina</button>
+                <button class="option-btn">Curitiba</button>
+                <button class="option-btn">Maringá</button>
+                <button class="option-btn">Foz do Iguaçu</button>
+            </div>
+        </div>
+        <p id="result"></p>
+        <button id="next-btn">Próxima Pergunta</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
